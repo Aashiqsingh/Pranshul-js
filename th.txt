@@ -53,5 +53,4 @@ There are three keyword.
 3. const --> block scope and can't change value.
 
 
-
-
+a = 10;
