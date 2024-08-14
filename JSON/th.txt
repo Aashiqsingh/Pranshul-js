@@ -1,0 +1,9 @@
+Json -- Javascript object notation 
+
+key or value
+
+{
+    name : "pranshul",
+    age : 20,
+    email : "pranshul@gmail.com",
+}
