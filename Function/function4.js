@@ -27,3 +27,13 @@ var sum = 0;
 
 var x = SumOfDigit(456)
 console.log("Sum of all digits...",x);
+
+
+
+// user  -- amount < 10000
+// /please enter opening bal:
+// min op balc req is 10000
+// if user enteres less than 10000 then ask again to enter balance..
+//give 3 chance only to enter correct balance
+//after 3 chance print error message in console..
+//if user enter correct balacne bw 1 to 3 chance print success message in console
