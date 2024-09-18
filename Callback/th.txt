@@ -1,0 +1,7 @@
+Java -- bydefault -- multi threding 
+
+javascript -- single treded application 
+
+callback 
+
+

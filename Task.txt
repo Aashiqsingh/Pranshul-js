@@ -1,0 +1,5 @@
+1.  check prime or not 
+2. check pallindrome number
+3. string -- pranshul  -- p-r-a-n-s-h-u-l
+4. find simple intrest 
+5. find are of circle
