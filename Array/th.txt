@@ -1,0 +1,6 @@
+Array :- Array is colletion of data
+
+
+Don't have data type 
+
+Array hertrogeunius 
