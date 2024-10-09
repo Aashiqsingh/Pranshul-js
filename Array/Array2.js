@@ -26,21 +26,25 @@
 
 // console.log(x);
 
-var users = ["krishna","jutin","priyank","pranshul","suresh","aashish"]
+// var users = ["krishna","jutin","priyank","pranshul","suresh","aashish"]
 
-var arr = [23,34,45,56]
+// var arr = [23,34,45,56]
 
-console.log(users);
+// console.log(users);
 
 
 
 // users.splice(3,0,"hanuman")
 // users.splice(1,1,"rahul")
 // users.splice(1,2,"rahul")
-users.splice(1,1,"rahul","kirpekar","tejas")
+// users.splice(1,1,"rahul","kirpekar","tejas")
 
 
 
-console.log(users);
+// console.log(users);
 
 
+var fname = "kirpekar"
+
+var x = fname.split("").reverse().join("")
+console.log(x);
