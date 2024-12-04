@@ -48,3 +48,4 @@ var fname = "kirpekar"
 
 var x = fname.split("").reverse().join("")
 console.log(x);
+
