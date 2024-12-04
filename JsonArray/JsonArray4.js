@@ -116,9 +116,20 @@ var company = [
     }
   ]
 
+// 9 question
+
+  // company = company.reduce((count , comp)=> count + comp.employees.filter((emp)=> emp.email.endsWith("datadynamics.com")).length,0)
+  // console.log(company);
+  
+  // 8 question
+  // company = company.map((comp)=> comp.employees.filter((emp)=> emp.age > 30))
+  // console.log(company);
+  
+
+
   // 7 question
-  company = company.find((comp)=> comp.companyname == "Tech Solutions").employees.reduce((sum,emp)=> (sum + emp.salary)/2,0)
-  console.log(company);
+  // company = company.find((comp)=> comp.companyname == "Tech Solutions").employees.reduce((sum,emp)=> (sum + emp.salary)/2,0)
+  // console.log(company);
   
 
 
