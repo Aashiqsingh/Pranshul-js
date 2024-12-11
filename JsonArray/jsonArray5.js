@@ -130,6 +130,25 @@ var company = [
     
 ]
 
+var x = company.map((comp)=> comp.employees.filter((emp)=> emp.salary > 30000).forEach((emp)=>{
+    console.log(emp.email)
+    
+}))
+// console.log(x);
+
+
+
+// var x = company.map((comp)=> comp.employees.reduce((count,emp)=> count + emp.child ,0)).reduce((count,emp)=> count + emp,0)
+// console.log(x);
+
+
+
+
+// var x = company.map((comp)=> comp.employees.reduce((sum,emp)=> sum + emp.salary / 3 ,0))
+// console.log(x);
+
+
+
 
 // 1.  Find the total number of employees in all companies.
 // 2. Find the company where the employee named "riya" works.

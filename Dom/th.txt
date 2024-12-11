@@ -1,0 +1,16 @@
+DOM -- >  Document object notation 
+
+Elements -- > tags 
+
+Identify 
+
+id :  --> uniqui
+name : --> multiple 
+class : --> multiple
+tagName : --> multiple
+querrySelector :
+
+
+
+Event :
+onclick
