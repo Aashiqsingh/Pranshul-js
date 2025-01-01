@@ -2,14 +2,29 @@ function submitHandler(event){
     event.preventDefault(); // Prevent form submission
     // alert("Form submitted");
 
-    let name = document.getElementById("name").value 
-    let email = document.getElementById("email").value
+    var name = document.getElementById("name")
+    var email = document.getElementById("email")
 
 
     var data = {
         name: name,
         email:email
     }
+
+    var nameErr = document.getElementById("nameErr");
+
+    if(name.value.length < 4)
+    {
+        nameErr.innerHTML = "Name is too short"
+        nameErr.style.color = "red"
+        name.style.border = "2px solid red"
+    }
+    else{
+        name.style.border = "2px solid green"
+    }
+
+    
+    
 
     // console.log(data);
     
