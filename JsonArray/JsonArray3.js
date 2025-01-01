@@ -74,6 +74,8 @@ var departments = [
 ]
 
 
+
+
 var x = departments.map((depart)=>{
     return depart.employees.forEach((emp)=>{
         emp.gender == "male" ? console.log(emp) : "";
