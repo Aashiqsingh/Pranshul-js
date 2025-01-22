@@ -1,38 +1,46 @@
 // var body = document.getElementById("body");
-var body = document.getElementsByTagName("body")[0]
-const orange = ()=>{
+// var body = document.getElementsByTagName("body")[0]
+// const orange = ()=>{
 
-    body.style.backgroundColor = "orange";
+//     body.style.backgroundColor = "orange";
 
-    setTimeout(()=>{
-        green()
-    },2000);
+//     setTimeout(()=>{
+//         green()
+//     },2000);
 
-}
+// }
 
 
-const green = ()=>{
+// const green = ()=>{
 
-    body.style.backgroundColor = "green";
+//     body.style.backgroundColor = "green";
 
-    setTimeout(()=>{
-        blue()
-    },2000);
+//     setTimeout(()=>{
+//         blue()
+//     },2000);
 
-}
+// }
 
-const blue = ()=>{
-    body.style.backgroundColor = "blue";
+// const blue = ()=>{
+//     body.style.backgroundColor = "blue";
 
-    setTimeout(()=>{
-        red()
-    },2000)
-}
+//     setTimeout(()=>{
+//         red()
+//     },2000)
+// }
 
-const red = ()=>{
-    body.style.backgroundColor = "red";
+// const red = ()=>{
+//     body.style.backgroundColor = "red";
 
-    setTimeout(()=>{
-        orange()
-    },2000)
+//     setTimeout(()=>{
+//         orange()
+//     },2000)
+// }
+
+function changeClr(event){
+    // var body = document.getElementsByTagName("body")[0];
+    // body.style.backgroundColor = "blue";
+
+    console.log(event.target.value);
+    
 }
