@@ -130,6 +130,19 @@ var company = [
     
 ]
 
+
+
+// 1.  Find the total number of employees in all companies.
+// 2. Find the company where the employee named "riya" works.
+// 3. Calculate the average salary of employees across all companies.
+// 4. Find the names of all employees who are married.
+// 5. Count the total number of children across all employees
+// 6.  Get the highest-paid employee and their company.
+// 7. List all female employees.
+// 8. Count how many employees are not married.
+// 9. Find the email addresses of all employees earning more than 30,000.
+// 10. Identify the total number of employees for each company.
+
 var x = company.map((comp)=> comp.employees.filter((emp)=> emp.salary > 30000).forEach((emp)=>{
     console.log(emp.email)
     
@@ -150,13 +163,3 @@ var x = company.map((comp)=> comp.employees.filter((emp)=> emp.salary > 30000).f
 
 
 
-// 1.  Find the total number of employees in all companies.
-// 2. Find the company where the employee named "riya" works.
-// 3. Calculate the average salary of employees across all companies.
-// 4. Find the names of all employees who are married.
-// 5. Count the total number of children across all employees
-// 6.  Get the highest-paid employee and their company.
-// 7. List all female employees.
-// 8. Count how many employees are not married.
-// 9. Find the email addresses of all employees earning more than 30,000.
-// 10. Identify the total number of employees for each company.

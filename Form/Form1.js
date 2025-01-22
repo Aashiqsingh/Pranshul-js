@@ -49,3 +49,5 @@ function submitHandler(event){
     console.log("Form submitted");
     
 }
+
+// First name , last name , email , mobile , age > 18 ? you r not valid
