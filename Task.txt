@@ -3,3 +3,22 @@
 3. string -- pranshul  -- p-r-a-n-s-h-u-l
 4. find simple intrest 
 5. find are of circle
+
+
+
+
+
+
+
+---------------------------------------------------
+Register page : 
+
+UserName :
+Email : 
+Password : 
+Mobile :
+
+
+SignUp :
+email : check email
+Password : check password
