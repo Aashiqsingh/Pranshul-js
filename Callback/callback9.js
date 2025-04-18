@@ -2,7 +2,16 @@ const wordHandler = (option)=>{
     return option.fname + " handle with wordHandler.."
 }
 const pdfHandler = (option)=>{
-    return option.fname + " handle with pdfHandler.."
+    // return option.fname + " handle with pdfHandler.."
+    return {
+        collegeName : "LG Engeering",
+        message: option.fname  + " your addmisiion successfully..",
+        startDate: "10/0325",
+        endDate: "10/0325",
+        courseName: "Bachelor of Engineering",
+        courseDuration: "4 years",
+        courseFee: "Rs. 50000"
+    }
 }
 
 const pngHandler = (option) => {
