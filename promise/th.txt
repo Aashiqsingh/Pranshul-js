@@ -1,0 +1,21 @@
+Promise --> - pending -- (fullfilled , reject)
+
+Promise -- class -- object 
+
+There are two types of ways.
+1. sync way
+    - Block sync 
+         - then catch
+    - function sync 
+        - async await
+2. non-sync way
+
+
+
+
+"start"
+
+
+"###################################" - 2min 
+
+"End"

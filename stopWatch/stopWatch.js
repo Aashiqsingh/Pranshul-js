@@ -32,7 +32,7 @@ var x;
 const start = ()=>{
     x = setInterval(()=>{
         start2()
-    },1)
+    },1000)
 }
 
 const stop = ()=>{
